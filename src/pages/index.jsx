@@ -22,10 +22,12 @@ const PostWrapper = styled.div`
 
 const Index = ({ data }) => {
   const { edges } = data.allMarkdownRemark;
+  const image = data.bannerImage.childImageSharp.fluid;
+
   return (
     <Layout>
       <Helmet title={'Coverdriving'} />
-      <Header title="Coverdriving">Everything Cricket</Header>
+      <Header title="Coverdriving" cover={image}>Everything Cricket</Header>
       <PostWrapper>
         {edges.map(({ node }) => {
           const { id, excerpt, frontmatter } = node;
@@ -96,6 +98,20 @@ export const query = graphql`
               }
             }
           }
+        }
+      }
+    }
+    bannerImage: file(absolutePath: {regex: "/cd_banner.jpg/"}) {
+      childImageSharp {
+        fluid(
+          maxWidth: 1920
+          quality: 90
+          duotone: { highlight: "#386eee", shadow: "#2323be", opacity: 60 }
+        ) {
+          ...GatsbyImageSharpFluid_withWebp
+        }
+        resize(width: 1200, quality: 90) {
+          src
         }
       }
     }

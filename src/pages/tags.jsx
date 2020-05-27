@@ -2,13 +2,15 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Layout, Container } from 'layouts';
 import { Header, TagsBlock } from 'components';
+import { graphql } from 'gatsby';
 
-const Tags = ({ pageContext }) => {
+const Tags = ({ data, pageContext }) => {
   const { tags } = pageContext;
+  const image = data.bannerImage.childImageSharp.fluid;
 
   return (
     <Layout>
-      <Header title="Tags Page">Gatsby Tutorial Starter</Header>
+      <Header title="Tags Page" cover={image}>Coverdriving</Header>
       <Container>
         <TagsBlock list={tags} />
       </Container>
@@ -23,3 +25,22 @@ Tags.propTypes = {
     tags: PropTypes.array,
   }),
 };
+
+export const query = graphql`
+  query {
+    bannerImage: file(absolutePath: {regex: "/cd_banner.jpg/"}) {
+      childImageSharp {
+        fluid(
+          maxWidth: 1920
+          quality: 90
+          duotone: { highlight: "#386eee", shadow: "#2323be", opacity: 60 }
+        ) {
+          ...GatsbyImageSharpFluid_withWebp
+        }
+        resize(width: 1200, quality: 90) {
+          src
+        }
+      }
+    }
+  }
+`;

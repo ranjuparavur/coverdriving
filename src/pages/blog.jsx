@@ -7,10 +7,12 @@ import { Layout } from 'layouts';
 
 const Blog = ({ data }) => {
   const { edges } = data.allMarkdownRemark;
+  const image = data.bannerImage.childImageSharp.fluid;
+
   return (
     <Layout>
-      <Helmet title={'Blog Page'} />
-      <Header title="Blog Page">Gatsby Tutorial Starter</Header>
+      <Helmet title={'Blog | Coverdriving'} />
+      <Header title="Blog" cover={image}>Coverdriving Blog Page</Header>
       {edges.map(({ node }) => (
         <BlogList
           key={node.id}
@@ -73,6 +75,20 @@ export const query = graphql`
               }
             }
           }
+        }
+      }
+    }
+    bannerImage: file(absolutePath: {regex: "/cd_banner.jpg/"}) {
+      childImageSharp {
+        fluid(
+          maxWidth: 1920
+          quality: 90
+          duotone: { highlight: "#386eee", shadow: "#2323be", opacity: 60 }
+        ) {
+          ...GatsbyImageSharpFluid_withWebp
+        }
+        resize(width: 1200, quality: 90) {
+          src
         }
       }
     }

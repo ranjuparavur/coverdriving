@@ -1,6 +1,6 @@
 export const colors = {
   white: {
-    base: '#fff',
+    base: '#f2f2f2',
     light: '#f0f0f0',
     grey: '#cecece',
     dark: '#a0afd7',
@@ -10,14 +10,15 @@ export const colors = {
     light: '#4b4e57',
     blue: '#2e3246',
   },
-  primary: {
-    base: '#3498db',
-    light: '#3e5fbc',
-    dark: '#284187',
-  },
   background: {
-    light: '#3e5fbc',
-    dark: '#284187',
+    base: '#9D344B',
+    light: '#BC7685',
+    dark: '#5F0014',
+  },
+  primary: {
+    base: '#257059',
+    light: '#548677',
+    dark: '#00442F',
   },
 };
 
