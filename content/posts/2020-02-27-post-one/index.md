@@ -1,10 +1,10 @@
 ---
-path: "/post-thirteen"
+path: "/International-Cricket-Round-Up-26-February-2020"
 cover: './Eng-v-Tha.jpg'
 date: "2020-02-27"
 title:  "International Cricket Round Up – 26 February 2020"
 published: true
-tags: ['website', 'react', 'other']
+tags: ['England', 'Thailand', 'Round Up']
 ---
 
 The highest Men’s ODI total without hitting a six. Thailand Women giving England women a momentary, but momentous scare. That and more, in the International Cricket Round up for the day.

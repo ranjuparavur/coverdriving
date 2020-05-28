@@ -27,7 +27,7 @@ const Index = ({ data }) => {
   return (
     <Layout>
       <Helmet title={'Coverdriving'} />
-      <Header title="Coverdriving" cover={image}>Everything Cricket</Header>
+      <Header pagetitle="Coverdriving" cover={image}>Everything Cricket</Header>
       <PostWrapper>
         {edges.map(({ node }) => {
           const { id, excerpt, frontmatter } = node;

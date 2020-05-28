@@ -1,10 +1,10 @@
 ---
-path: "/post-fifteen"
+path: "/Indian-fans-wake-up-to-a-bright-Sunday-Morning"
 cover: './Jasprit-Bumrah.jpg'
 date: "2020-03-01"
 title:  "Indian fans wake up to a bright Sunday Morning"
 published: true
-tags: ['website', 'react', 'other']
+tags: ['India', 'ODI', 'New Zealand', 'Jasprit Bumrah', 'Bowling']
 ---
 
 

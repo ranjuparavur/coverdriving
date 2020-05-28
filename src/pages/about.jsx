@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import { Header } from 'components';
 import { Layout, Container } from 'layouts';
 import { graphql } from 'gatsby';
+import { FiTwitter, FiInstagram } from 'react-icons/fi';
 
 const About = ({data, center}) => {
   const image = data.bannerImage.childImageSharp.fluid;
@@ -11,18 +12,18 @@ const About = ({data, center}) => {
   return (
       <Layout>
         <Helmet title={'About | Coverdriving'} />
-        <Header title="About Page" cover={image}>Coverdriving</Header>
+        <Header pagetitle="About Page" cover={image}>Coverdriving</Header>
         <Container center={center}>
           <h3 style={{textAlign: "justify"}}>
             Written by Aniket Dass who is passionate about cricket than most people. Usually a calm character, he is only provoked if someone disagrees that Rahul Dravid is a cricketing genious!
           </h3>
           <br />
           <h3>
-            <a href="https://instagram.com/coverdriving">Coverdriving on Instagram</a>
+            <a href="https://instagram.com/coverdriving">< FiInstagram/> Coverdriving on Instagram</a>
           </h3>
           <br />
           <h3>
-            <a href="https://twitter.com/coverdriving">Coverdriving on Twitter</a>
+            <a href="https://twitter.com/coverdriving"><FiTwitter /> Coverdriving on Twitter</a>
           </h3>      
         </Container>
       </Layout>

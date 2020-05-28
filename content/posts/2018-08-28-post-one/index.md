@@ -1,10 +1,10 @@
 ---
-path: "/post-one"
+path: "/Will-any-fast-bowler-take-more-Test-Wickets-than-James-Anderson"
 cover: './Jimmy_Anderson.jpg'
 date: "2018-08-28"
 title: "Will any fast bowler take more Test Wickets than James Anderson?"
 published: true
-tags: ['website', 'react', 'other']
+tags: ['Jimmy Anderson', 'Test Cricket', 'England', 'Records']
 ---
 
 Who holds the record for most Test Wickets amongst fast bowlers? Glenn Mcgrath, with 563. James Anderson, currently at 557, is on the cusp of breaking the Australian’s momentous record. The tall former Aussie-paceman recently said that once James Anderson takes the 7 wickets required to surpass his tally, the record will stay with Anderson forever. Bold statement.

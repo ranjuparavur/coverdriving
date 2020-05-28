@@ -1,10 +1,10 @@
 ---
-path: "/post-twelve"
+path: "/When-Sachin-got-his-ODI-Double"
 cover: './Sachin-Tendulkar.jpg'
 date: "2020-02-25"
 title:  "When Sachin got his ODI Double…"
 published: true
-tags: ['website', 'react', 'other']
+tags: ['Sachin Tendulkar', 'Memories', 'Interview']
 ---
 
 When ODI Cricket first came about in 1971, no one really thought of this milestone as a practical possibility. New Zealand’s Glenn Turner hit an unbeaten 171 in the very first World Cup against a weak East Africa side. That innings took him 201 balls – in a 60 over match. Then one fine day in 1984, a storm hit Manchester, England as Viv Richards tore into the English attack. Walking in at number 4, Richards smashed an unbeaten 189 in a 55 over match and the world opened up to the possibility of a double hundred in ODIs. Three years later, Richards came close again, conjuring a brutal 181 against a hapless Sri Lankan attack at the World Cup. The man had taken only 125 balls and was at the crease for less than forty overs. Surely a double hundred was doable?

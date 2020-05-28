@@ -12,7 +12,7 @@ const Blog = ({ data }) => {
   return (
     <Layout>
       <Helmet title={'Blog | Coverdriving'} />
-      <Header title="Blog" cover={image}>Coverdriving Blog Page</Header>
+      <Header pagetitle="Blog" cover={image}>Coverdriving Blog Page</Header>
       {edges.map(({ node }) => (
         <BlogList
           key={node.id}

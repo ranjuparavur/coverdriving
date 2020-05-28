@@ -1,10 +1,10 @@
 ---
-path: "/post-nine"
+path: "/International-Cricket-Round-Up-22-February-2020"
 cover: './Thailand-Women-Cricket-Team.jpg'
 date: "2020-02-22"
 title: "International Cricket Round Up – 22 February 2020"
 published: true
-tags: ['website', 'react', 'other']
+tags: ['Women's Crciket', 'Thailand', 'India', 'New Zealand', 'West Indies']
 ---
 
 A total of 5 international cricket matches were played out today in 4 different countries across all 3 formats and 2 genders. Here is a round up of all of them.

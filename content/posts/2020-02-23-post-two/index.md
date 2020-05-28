@@ -1,10 +1,10 @@
 ---
-path: "/post-eleven"
+path: "/International-Cricket-Round-Up-23-February-2020"
 cover: './Boult.jpg'
 date: "2020-02-23"
 title:  "International Cricket Round Up – 23 February 2020"
 published: true
-tags: ['website', 'react', 'other']
+tags: ['New Zealand', 'India', 'Round Up']
 ---
 
 Super Sunday saw 4 international matches being played across all 3 formats. Here is a recap of how they panned out.

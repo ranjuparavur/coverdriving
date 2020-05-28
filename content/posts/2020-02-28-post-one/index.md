@@ -1,10 +1,10 @@
 ---
-path: "/post-fourteen"
+path: "/International-Cricket-Round-Up–27-February-2020"
 cover: './INDWvNZW.jpg'
 date: "2020-02-28"
 title:  "International Cricket Round Up – 27 February 2020"
 published: true
-tags: ['website', 'react', 'other']
+tags: ['India', 'New Zealand', 'Round Up']
 
 ---
 

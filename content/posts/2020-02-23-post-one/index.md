@@ -1,10 +1,10 @@
 ---
-path: "/post-ten"
+path: "/Meet-Meet-an-Exclusive-Interview-with-the-World’s-Youngest-Male-International-Cricketer"
 cover: './Meet-Bhavsar.jpg'
 date: "2020-02-23"
 title: "Meet Meet – an Exclusive Interview with the World’s Youngest Male International Cricketer"
 published: true
-tags: ['website', 'react', 'other']
+tags: ['Meet Bhavsar', 'ODI', 'Kuwait', 'Interview']
 ---
 
 The International Cricket Council in 2018 decided to grant T20I status to all of its 104 member countries. Kuwait is currently ranked 28 in the ICC’s T20I rankings – just one spot behind the semi-finalists of the 2003 World Cup – Kenya. They met Maldives in Al Amerat, Oman, to play what would be both the countries’ first international cricket match. Among the 22 men who lined up for their as well as their country’s debut, was a boy, all of 14 years and 211 days. Meet Meet Bhavsar – a left handed wicket keeper cum opening batsman from Kuwait – the youngest male international cricketer on the planet.

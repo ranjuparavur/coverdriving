@@ -10,7 +10,7 @@ const Tags = ({ data, pageContext }) => {
 
   return (
     <Layout>
-      <Header title="Tags Page" cover={image}>Coverdriving</Header>
+      <Header pagetitle="Tags Page" cover={image}>Coverdriving</Header>
       <Container>
         <TagsBlock list={tags} />
       </Container>

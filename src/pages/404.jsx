@@ -12,7 +12,7 @@ const ErrorPage = ({data, center}) => {
   return(
     <Layout>
       <Helmet title={'404'} />
-      <Header title="404" cover={image} />
+      <Header pagetitle="404" cover={image} />
       <Container center={center}>
         <h1>Woops, something went wrong.</h1>
         <h3>This page does not exist or is no longer reachable.</h3>
