@@ -1,14 +1,14 @@
 {
   "name": "gatsby-tutorial-starter",
-  "author": "Justin Formentin",
-  "title": "Gatsby V2 Tutorial Starter",
-  "description": "My Blog",
-  "homepage": "https://gatsby-tutorial-starter.netlify.com",
+  "author": "Ranjith M",
+  "title": "Coverdriving",
+  "description": "Coverdriving Blog",
+  "homepage": "https://competent-rosalind-fddce3.netlify.app/",
   "license": "MIT",
-  "version": "0.0.7",
+  "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/justinformentin/gatsby-v2-tutorial-starter"
+    "url": "https://github.com/ranjuparavur/coverdriving/"
   },
   "scripts": {
     "develop": "gatsby develop",
