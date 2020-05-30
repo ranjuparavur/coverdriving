@@ -61,9 +61,9 @@ const StyledLink = styled(Link)`
     bottom: 0;
     background: linear-gradient(
       to bottom,
-      rgba(0, 0, 0, 0) 0%,
-      rgba(0, 0, 0, 0.3) 50%,
-      rgba(0, 0, 0, 0.7) 80%,
+      rgba(0, 0, 0, 0.3) 0%,
+      rgba(0, 0, 0, 0.6) 50%,
+      rgba(0, 0, 0, 0.8) 80%,
       rgba(0, 0, 0, 0.8) 100%
     );
     z-index: -10;

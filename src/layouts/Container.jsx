@@ -13,10 +13,12 @@ const Wrapper = styled.section`
 
   @media (max-width: ${props => props.theme.breakpoints.m}) {
     width: 90%;
+    padding: 2rem 1.5rem;
   }
 
   @media (max-width: ${props => props.theme.breakpoints.s}) {
     width: 95%;
+    padding: 1rem 1rem;
   }
 `;
 

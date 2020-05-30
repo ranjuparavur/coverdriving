@@ -61,12 +61,12 @@ const PageH1 = styled.h1`
 const BlogH1 = styled.h1`
   font-size: 50px;
   @media (max-width: ${props => props.theme.breakpoints.m}) {
-    font-size: 25px;
+    font-size: 30px;
     padding-top: 2rem;
   }
 
   @media (max-width: ${props => props.theme.breakpoints.s}) {
-    font-size: 20px;
+    font-size: 25px;
   }
 `;
 

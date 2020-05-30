@@ -85,7 +85,7 @@ export const query = graphql`
             title
             path
             tags
-            date(formatString: "MM.DD.YYYY")
+            date(formatString: "DD.MM.YYYY")
             cover {
               childImageSharp {
                 fluid(
@@ -106,7 +106,7 @@ export const query = graphql`
         fluid(
           maxWidth: 1920
           quality: 90
-          duotone: { highlight: "#386eee", shadow: "#2323be", opacity: 60 }
+          duotone: { highlight: "#f00e2e", shadow: "#192550", opacity: 60 }
         ) {
           ...GatsbyImageSharpFluid_withWebp
         }

@@ -21,6 +21,18 @@ const TagsContainer = styled.div`
       border: ${props => props.theme.colors.primary.light};
     }
   }
+
+  @media (max-width: 500px) {
+    margin: 0.5rem 0;
+
+    a {
+      margin: 0 0.5rem 0.5rem 0;
+      color: ${props => props.theme.colors.black.blue};
+      padding: 0.1rem 0.3rem;
+      background: ${props => props.theme.colors.white.grey};
+      border-radius: 5px;
+    }
+  }
 `;
 
 const TagsBlock = ({ list }) => (

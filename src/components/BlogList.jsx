@@ -7,7 +7,11 @@ import { TagsBlock } from 'components';
 import { Container } from 'layouts';
 
 const Wrapper = styled.article`
-  margin: 0 3rem;
+  margin: 0 1.5rem;
+
+  @media (max-width: 500px) {
+    margin: 0 0rem;
+  }
 `;
 
 const Image = styled.div`
@@ -53,6 +57,7 @@ const Image = styled.div`
   }
   @media (max-width: 500px) {
     min-height: 200px;
+    margin-bottom: 0.5rem;
   }
 `;
 
@@ -74,16 +79,32 @@ const Information = styled.div`
     flex-basis: 100%;
     max-width: 100%;
     width: 100%;
+
+    p {
+      
+    }
   }
 `;
 
 const Date = styled.div`
   margin-top: 1rem;
+  @media (max-width: 800px) {
+    margin-top: 0.8rem;
+  }
   color: ${props => props.theme.colors.black.lighter};
 `;
 
-const Title = styled.h1`
+const Title = styled.p`
   margin: 0;
+  font-size: 2rem;
+  font-weight: 1000;
+  color: #4f4f4f;
+
+  @media (max-width: 800px) {
+    font-size: 1.5rem;
+    font-weight: 800;
+    line-height: 1.8rem;
+  }
 `;
 
 const BlogList = ({ path, cover, title, date, excerpt, tags }) => (
@@ -100,7 +121,7 @@ const BlogList = ({ path, cover, title, date, excerpt, tags }) => (
           <Title>{title}</Title>
         </Link>
         <TagsBlock list={tags} />
-        {excerpt}
+          {excerpt}
       </Information>
     </Wrapper>
   </Container>

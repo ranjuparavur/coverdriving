@@ -76,7 +76,7 @@ export const query = graphql`
     markdownRemark(frontmatter: { path: { eq: $pathSlug } }) {
       html
       frontmatter {
-        date
+        date(formatString: "DD.MM.YYYY")
         title
         tags
         cover {
@@ -84,7 +84,7 @@ export const query = graphql`
             fluid(
               maxWidth: 1920
               quality: 90
-              duotone: { highlight: "#386eee", shadow: "#2323be", opacity: 60 }
+              duotone: { highlight: "#f00e2e", shadow: "#192550", opacity: 60 }
             ) {
               ...GatsbyImageSharpFluid_withWebp
             }
