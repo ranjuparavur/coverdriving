@@ -45,12 +45,10 @@ const Text = styled.div`
 
 const PageH1 = styled.h1`
   font-size: 70px;
-
   @media (max-width: ${props => props.theme.breakpoints.m}) {
     font-size: 45px;
     padding-top: 2rem;
   }
-
   @media (max-width: ${props => props.theme.breakpoints.s}) {
     font-size: 25px;
     padding-top: 2rem;
@@ -64,7 +62,6 @@ const BlogH1 = styled.h1`
     font-size: 30px;
     padding-top: 2rem;
   }
-
   @media (max-width: ${props => props.theme.breakpoints.s}) {
     font-size: 25px;
   }
@@ -77,7 +74,6 @@ const PostDate = styled.h1`
     font-size: 15px;
     padding-top: 0.5rem; 
   }
-
   @media (max-width: ${props => props.theme.breakpoints.s}) {
     font-size: 10px;
     padding-top: 0.5rem; 
